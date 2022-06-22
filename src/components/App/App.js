@@ -30,7 +30,6 @@ function App () {
             }
           });
         const jsonResult = await result.json();
-        console.log(jsonResult);
         if (jsonResult.total_count === 0) {
           setNoResults(true);
           setAllPages(1);
